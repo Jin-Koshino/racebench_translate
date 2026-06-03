@@ -1,10 +1,10 @@
 /*
  * case3.c
- * Ä£Ê½1£ºµ¥±äÁ¿¶à´Î·ÃÎÊÖ®¼äµÄÔ­×ÓĞÔÎ¥·´
+ * ãƒ‘ã‚¿ãƒ¼ãƒ³1ï¼šå˜ä¸€å¤‰æ•°ã®è¤‡æ•°ã‚¢ã‚¯ã‚»ã‚¹é–“ã®åŸå­æ€§é•å
  *
- * R-W-W ½á¹¹Ìå ÈÎÎñÓëÖĞ¶Ï ±äÁ¿¶ÁĞ´ º¯ÊıÇ¶Ì×
+ * R-W-W struct task and interrupt variable read/write nested function
  *
- *  Created on: 2013Äê11ÔÂ6ÈÕ
+ *  Created on: 2013å¹´11æœˆ6æ—¥
  *      Author: chenrui
  */
 #include "case3.h"
@@ -14,7 +14,7 @@ typedef struct Time{
 	int misecond;
 } Time;
 
-/* ¹²Ïí±äÁ¿Îª½á¹¹ÌåÀàĞÍ */
+/* å…±æœ‰å¤‰æ•°ã¯æ§‹é€ ä½“å‹ */
 volatile Time star_time_case3;
 
 void case3_main(){
@@ -28,7 +28,7 @@ void case3_main(){
 
 void case3_isr(){
 	idlerun();
-	/* Ç¶Ì×º¯Êı  */
+	/* ãƒã‚¹ãƒˆã•ã‚ŒãŸé–¢æ•° */
 	case3_nestedfunc();
 
 }

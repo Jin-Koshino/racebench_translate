@@ -1,11 +1,11 @@
 /*
  * case2.c
  *
- * Ä£Ê½1£ºµ¥±äÁ¿¶à´Î·ÃÎÊÖ®¼äµÄÔ­×ÓĞÔÎ¥·´
+ * ãƒ‘ã‚¿ãƒ¼ãƒ³1ï¼šå˜ä¸€å¤‰æ•°ã®è¤‡æ•°ã‚¢ã‚¯ã‚»ã‚¹é–“ã®åŸå­æ€§é•å
  *
- * W-W-R ÁªºÏÌå ÈÎÎñÓëÖĞ¶Ï ±äÁ¿¶ÁĞ´
+ * W-W-R union task and interrupt variable read/write
  *
- *  Created on: 2013Äê11ÔÂ6ÈÕ
+ *  Created on: 2013å¹´11æœˆ6æ—¥
  *      Author: chenrui
  */
 #include "case2.h"
@@ -24,7 +24,7 @@ void case2_main(){
 }
 
 void case2_isr(){
-	packet_case2.data = 0x2;  /* bug¡¡*/
+	packet_case2.data = 0x2;  /* bugã€€*/
 }
 
 
