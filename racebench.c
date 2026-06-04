@@ -26,12 +26,12 @@ void Default_int(void)
 
 
 
-/** 5¸öÈÎÎñ */
+/** 5ä¸ªä»»åŠ¡ */
 
 /**
-¸²¸ÇµÄcase£º
-case 1: ÓëÖĞ¶Ï1
-case 2: ÓëÖĞ¶Ï2
+è¦†ç›–çš„caseï¼š
+case 1: ä¸ä¸­æ–­1
+case 2: ä¸ä¸­æ–­2
 
 */
 void bench_task1(void)

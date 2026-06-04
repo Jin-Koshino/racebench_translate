@@ -1,8 +1,8 @@
 /*
  * case13.c
- * Ä£Ê½4£ºlock-lock-unlock-unlock
- * »ù±¾ÀàĞÍ + ÈÎÎñºÍÖĞ¶Ï +
- *  Created on: 2013Äê11ÔÂ6ÈÕ
+ * ãƒ‘ã‚¿ãƒ¼ãƒ³4ï¼šlock-lock-unlock-unlock
+ * åŸºæœ¬å‹ + ã‚¿ã‚¹ã‚¯ã¨å‰²ã‚Šè¾¼ã¿ +
+ *  Created on: 2013å¹´11æœˆ6æ—¥
  *      Author: chenrui
  */
 #include "case13.h"

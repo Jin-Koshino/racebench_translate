@@ -2,21 +2,21 @@
 	#define __UTIL_STD_H__
 
 
-	#define OK					(0)			/* ×´Ì¬Öµ,´ú±íÕı³£ */
-	#define ERROR				(-1) 		/* ×´Ì¬Öµ,´ú±í´íÎó */
+	#define OK					(0)			/* çŠ¶æ€å€¼,ä»£è¡¨æ­£å¸¸ */
+	#define ERROR				(-1) 		/* çŠ¶æ€å€¼,ä»£è¡¨é”™è¯¯ */
 
-	#define OSTRUE				(1)			/* Âß¼­Öµ,´ú±íÕıÈ· */
-	#define OSFALSE				(0) 		/* Âß¼­Öµ,´ú±í´íÎó */
+	#define OSTRUE				(1)			/* é€»è¾‘å€¼,ä»£è¡¨æ­£ç¡® */
+	#define OSFALSE				(0) 		/* é€»è¾‘å€¼,ä»£è¡¨é”™è¯¯ */
 
-	#define NULL 				(0)			/* ¿ÕÖ¸ÕëÊıÖµ */
+	#define NULL 				(0)			/* ç©ºæŒ‡é’ˆæ•°å€¼ */
 
 
 	#ifndef __ASMLANG__
 
-	/* typedef - ÀàĞÍ¶¨Òå */
-	typedef	int				BOOL;			/* Âß¼­ĞÍ±äÁ¿ÀàĞÍ */
-	typedef	int				STATUS; 		/* ×´Ì¬ĞÍ±äÁ¿ÀàĞÍ */
-	typedef	int				(*FUNCPTR)();	/* º¯ÊıÖ¸Õë±äÁ¿ÀàĞÍ */
+	/* typedef - ç±»å‹å®šä¹‰ */
+	typedef	int				BOOL;			/* é€»è¾‘å‹å˜é‡ç±»å‹ */
+	typedef	int				STATUS; 		/* çŠ¶æ€å‹å˜é‡ç±»å‹ */
+	typedef	int				(*FUNCPTR)();	/* å‡½æ•°æŒ‡é’ˆå˜é‡ç±»å‹ */
 
 	typedef	char				I8;
 	typedef	short				I16;

@@ -4,10 +4,10 @@
  * Template File:svp_simple_005
  * Created by Beijing Sunwise Information Technology Ltd. on 19/11/25.
  * Copyright © 2019年 Beijing Sunwise Information Technology Ltd. All rights reserved.
- * [说明]:
- * 主程序入口:svp_simple_005_001_main
- * 中断入口:svp_simple_005_001_isr_1
- * 中断间的优先级以中断号作为标准，中断号越高，中断优先级越高。
+ * [説明]:
+ * メインプログラム入口:svp_simple_005_001_main
+ * 割り込みハンドラ入口:svp_simple_005_001_isr_1
+ * 割り込み番号が大きいほど優先度が高い。
  *
  *
  *
@@ -45,8 +45,8 @@ void svp_simple_005_001_isr_1() {
   int reader;
   reader = svp_simple_005_001_global_var;
 }
-//bug点:
+// バグ箇所:
 //1.svp_simple_005_001_global_var<W#32>,<R#46>,<W#40>
-//误报点:
+// 誤検知箇所:
 //1.svp_simple_005_001_global_var<W#32>,<R#46>,<W#38>
 //2.svp_simple_005_001_global_var<W#38>,<R#46>,<W#40>
