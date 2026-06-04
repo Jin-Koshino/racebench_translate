@@ -3,11 +3,11 @@
  * Filename:svp_simple_013_001
  * Template File:svp_simple_013
  * Created by Beijing Sunwise Information Technology Ltd. on 19/11/25.
- * Copyright © 2019年 Beijing Sunwise Information Technology Ltd. All rights reserved.
- * [说明]:
- * 主程序入口:svp_simple_013_001_main
- * 中断入口:svp_simple_013_001_isr_1，svp_simple_013_001_isr_2，svp_simple_013_001_isr_3
- * 中断间的优先级以中断号作为标准，中断号越高，中断优先级越高。
+ * Copyright © 2019 Beijing Sunwise Information Technology Ltd. All rights reserved.
+ * [Description]:
+ * Main entry:svp_simple_013_001_main
+ * Interrupt entry:svp_simple_013_001_isr_1,svp_simple_013_001_isr_2,svp_simple_013_001_isr_3
+ * Interrupt priority is determined by interrupt number; a higher interrupt number means a higher priority.
  *
  *
  *
@@ -65,7 +65,7 @@ void svp_simple_013_001_isr_3() {
   if (svp_simple_013_001_global_flag1 == 1) svp_simple_013_001_global_var1 = 0x01;
   if (svp_simple_013_001_global_flag2 == 1) svp_simple_013_001_global_var2 = 0x01;
 }
-//bug点:
+// Bug point:
 //1.svp_simple_013_001_global_var1<R#39>,<W#65>,<R#41>
-//误报点:
+// False-positive point:
 //1.svp_simple_013_001_global_var2<R#43>,<w#66>,<R#45>

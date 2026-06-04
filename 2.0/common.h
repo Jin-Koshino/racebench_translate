@@ -3,7 +3,7 @@
  * Filename:common.h
  *
  * Created by Beijing Sunwise Information Technology Ltd. on 19/10/30.
- * Copyright © 2019年 Beijing Sunwise Information Technology Ltd. All rights reserved.
+ * Copyright © 2019 Beijing Sunwise Information Technology Ltd. All rights reserved.
  *
  *
  *

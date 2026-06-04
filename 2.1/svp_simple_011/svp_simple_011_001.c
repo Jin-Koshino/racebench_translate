@@ -3,11 +3,11 @@
  * Filename:svp_simple_011_001
  * Template File:svp_simple_011
  * Created by Beijing Sunwise Information Technology Ltd. on 19/10/30.
- * Copyright © 2019年 Beijing Sunwise Information Technology Ltd. All rights reserved.
- * [说明]:
- * 主程序入口:svp_simple_011_001_main
- * 中断入口:svp_simple_011_001_isr_1
- * 中断间的优先级以中断号作为标准，中断号越高，中断优先级越高。
+ * Copyright © 2019 Beijing Sunwise Information Technology Ltd. All rights reserved.
+ * [Description]:
+ * Main entry:svp_simple_011_001_main
+ * Interrupt entry:svp_simple_011_001_isr_1
+ * Interrupt priority is determined by interrupt number; a higher interrupt number means a higher priority.
  *
  *
  *
